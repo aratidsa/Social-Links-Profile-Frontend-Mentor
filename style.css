@@ -1,0 +1,150 @@
+/* RESET */
+
+html,body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+    display:block;
+}
+
+input,button
+{
+    font:inherit;
+}
+
+/* CUSTOM PROPERTIES */
+
+:root{
+/* COLOR */
+--clr-green: hsl(75, 94%, 57%);
+--clr-white: hsl(0, 0%, 100%);
+--clr-grey: hsl(0, 0%, 20%);
+--clr-dark-grey: hsl(0, 0%, 12%);
+--clr-off-black: hsl(0, 0%, 8%);
+
+/* FONT SIZE */
+--fs-14:0.88rem;
+--fs-12:0.75rem;
+
+/* FONT FAMILY */
+--ff-inter:"Inter", sans-serif;
+
+/* FONT WEIGHT */
+--fw-400:400;
+--fw-600:600;
+--fw-700:700;
+}
+
+/* BODY */
+body
+{
+    font-family: var(--ff-inter);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-14);
+    color:var(--clr-white);
+    background-color: var(--clr-off-black);
+    line-height: 1.6;
+}
+
+/* COMPONENTS */
+/* Container */
+.container
+{
+    background-color: var(--clr-dark-grey);
+    width:17.5rem;
+    max-height:100vh;
+    margin:auto;
+    margin-top:7.5rem;
+    border-radius: 0.63rem;
+    padding:2.5rem 1.88rem 1.25rem 1.88rem;
+}
+/* Profile Picture */
+.profile-pic
+{
+    border-radius: 50%;
+    width:6.25rem;
+    height:6.25rem;
+    margin:auto;
+} 
+/* Profile Name and Place*/
+.profile-name
+{
+    margin-top:0.63rem;
+    text-align: center;
+}
+
+.place
+{
+    color:var(--clr-green);
+    margin-top:-0.94rem;
+    font-weight: var(--fw-700);
+    font-size:var(--fs-12);
+}
+/* About */
+.work
+{
+    font-size:var(--fs-12);
+    text-align: center;
+    margin-top:1.25rem;
+    margin-bottom: 0.63rem;
+}
+/* Social Links Button */
+.btn-details
+{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top:0.94rem;
+}
+
+.btn-details button
+{
+    display:block;
+    margin-bottom: 0.94rem;
+    width:17.5rem;
+    background-color: var(--clr-grey);
+    color:var(--clr-white);
+    padding:0.63rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--fs-12);
+    font-weight: var(--fw-700);
+}
+
+.btn-details button:hover
+{
+    color:var(--clr-off-black);
+    background-color: var(--clr-green);
+    cursor: pointer;
+}
+/* Attribution */
+.attribution
+{
+    font-size: var(--fs-12);
+    text-align: center;
+}
+
+.attribution a
+{
+    font-size: var(--fs-12);
+    text-align: center;
+    color:var(--clr-green);
+    text-decoration: none;
+    font-weight: var(--fw-700);
+}
+
+/* Mobile Screen :- 375px */
+@media only screen and (max-width: 375px), (max-device-width: 375px){
+    .container
+    {
+      margin-top:5rem;
+    }
+}
+    
