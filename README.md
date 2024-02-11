@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/aratidsa/Social-Links-Profile-Frontend-Mentor
-- Live Site URL: 
+- Live Site URL: https://social-links-profile-design.netlify.app/
 
 ## My process
 
