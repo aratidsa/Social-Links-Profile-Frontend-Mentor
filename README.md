@@ -20,9 +20,9 @@ In this small project, you'll build out your social link-sharing profile.
 Users should be able to:
 -	See hover states for all interactive elements on the page
 ### Screenshot
-- Desktop
-  ![Screenshot 2024-02-11 162821](https://github.com/aratidsa/Social-Links-Profile-Frontend-Mentor/assets/128802362/8b09a22b-03b7-46bf-8ba2-f0b93173babd)
-    
+- Desktop  
+    ![Screenshot 2024-03-04 130852](https://github.com/aratidsa/Social-Links-Profile-Frontend-Mentor/assets/128802362/5139aad5-dcbb-4cb5-8cd5-2d2bb0a16a20)
+
 - Mobile  
 ![Screenshot 2024-02-11 162851](https://github.com/aratidsa/Social-Links-Profile-Frontend-Mentor/assets/128802362/6e048b96-0f73-470b-b1fc-7879a9b82c5d)
 
